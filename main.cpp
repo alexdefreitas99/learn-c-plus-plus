@@ -16,17 +16,29 @@ int main() {
 //    peso();
 //    int Mat_Num[3][5] = {{0,1,2,3,4},{5,6,7,8,9},{10,11,12,13,14}};
 //    cout << Mat_Num[2][0];
- int conta, x = 1, r = 1;
+// int conta, x = 1, r = 1;
 
-   for (conta = 2; conta >= 0; conta--) {
-       r = r * x + 1;
-        x += 2;
-       cout << "r= "  << r << "  x = " << x << endl;
+//   for (conta = 2; conta >= 0; conta--) {
+//       r = r * x + 1;
+//        x += 2;
+//       cout << "r= "  << r << "  x = " << x << endl;
+//
+//   }
 
-   }
+
+    int a = 3, b = 2;
+
+    int v[] = { 6, 7, 8, 9};
+
+    a = (v[2] - v[0]) + a;
+
+    int d = a * v[b];
+
+    std::cout << d << " " << v[1] << a + 2;
 }
 
 void peso() {
+    double mumero2Casa, idade;
     float peso_atual, emagrecer, engordar;
     cout << "Peso ã (kg): ";
     cin >> peso_atual;
